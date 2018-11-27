@@ -1,0 +1,147 @@
+#logo img, #logo2 img {
+  max-width: 100%;
+}
+
+#mainContent p {
+  min-height: 200px;
+  min-width: 200px;
+  text-align: center;
+  font-size:85px;
+
+  /* background-color: red; /* For browsers that do not support gradients */
+}
+
+footer {
+  background-color: #fff;
+  border-top-color: #cccccc;
+  border-top-width: 5px;
+  border-top-style: solid;
+  /* add padding to the top to match to size of the border */
+  padding-top: 5px;
+  /* remove border since it was used as an example
+  border: 1px solid green;
+  */
+  /* we want this to be all that way at the bottom */
+  /* position tells html how to handle the element */
+  position: fixed;
+  /* options are
+  static (default)
+  relative (to the parent element)
+  absolute (to the first positioned element)
+  fixed (sticky - to the window)
+  */
+  bottom: 0px;
+  /* bottom tells it to be at the bottom of the window */
+  /* as soon as we using positioning, the div (footer) acts as an inline element */
+  /* so, we have to tell the element to be full width */
+  width: 100%;
+  /* finally, I don't like the social media all the way at the bottom,
+     let's bump them up a bit */
+  padding-bottom: 5px;
+  /* really this should be with the other padding up there!! */
+}
+
+footer div.socialMedia {
+  /* remove padding on social media element and have text align to the right */
+  padding: 0px;
+  text-align: right;
+}
+
+footer div.socialMedia a:last-child {
+  margin-right: 0px
+}
+
+header {
+  /* display is a grid, each entity contains is a "block" in the grid */
+  display: grid;
+  /* this is 3 columns */
+  grid-template-columns: 10% 80% 10%;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+  background-color: gray;
+  height: 110px;
+}
+
+nav {
+  background-color: gray;
+}
+
+footer {
+  background-color: gray;
+}
+
+.navbar-collapse {
+  background-color: gray;
+  width: 100%;
+}
+
+body {
+  background-color: #ADDEE0;
+}
+
+footer {
+  text-color: white;
+}
+
+.bg-light {
+  background-color: gray !important;
+  float:right!important;
+
+
+}
+
+/* Style the links inside the navigation bar */
+.navbar-nav {
+  float: right;
+  text-decoration-color: white;
+  text-align: center;
+  text-decoration: color;
+  font-size: 24px;
+  height: 100px;
+}
+
+.logo2 {
+  height: 100px !important;
+}
+
+.socialMedia a {
+  margin: 20px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  footer {
+    display: grid;
+    /* removed grid-column-gap it causes a horizontal scroll
+    grid-column-gap: 10px;
+    */
+    grid-template-columns: 50% 50%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    header {
+      grid-template-columns: 25% 50% 0%;
+    }
+
+    header .logo2 {
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+
+    .navbar-nav {
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+  }
+
+  .centered{
+    position:absolute;
+    width:100px;
+    height:100px;
+    left:50%;
+    top:50%;
+    margin-left:-50px;
+    margin-top:-50px;
+    line-height: normal;
+    font-size: 85px;
+}
