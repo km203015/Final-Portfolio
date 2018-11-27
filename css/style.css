@@ -92,10 +92,6 @@ footer {
 
 /* Style the links inside the navigation bar */
 .navbar-nav {
-  float: right;
-  text-decoration-color: white;
-  text-align: center;
-  text-decoration: color;
   font-size: 24px;
   height: 100px;
 }
@@ -128,13 +124,7 @@ footer {
       grid-row-end: 3;
     }
 
-    .navbar-nav {
-      grid-row-start: 1;
-      grid-row-end: 3;
-    }
-  }
-
-  .centered{
+    .centered{
     position:absolute;
     width:100px;
     height:100px;
