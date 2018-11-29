@@ -207,12 +207,17 @@ h1.about
 }
 p.text
 {
-  text-align: left;
-  font-size: 18px;
+float: right;
 }
+
 h1.work
 {
   font-family: 'Sevillana', cursive;
   text-align: center;
   font-size: 48px;
 }
+a.enterwork {
+  line-height: 425px;
+  height: 425px;
+  text-align: center;
+  }
