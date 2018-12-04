@@ -10,7 +10,24 @@
 
   /* background-color: red; /* For browsers that do not support gradients */
 }
+h1.about
+{
+  font-family: 'Sevillana', cursive;
+  text-align: center;
+}
 
+
+h1.work
+{
+  font-family: 'Sevillana', cursive;
+  text-align: center;
+  font-size: 48px;
+}
+h1.touch
+{
+  font-family: 'Sevillana', cursive;
+  text-align: center;
+}
 footer {
   background-color: #fff;
   border-top-color: #cccccc;
@@ -200,19 +217,7 @@ html, body {
   display: inline-block;
 }
 
-h1.about
-{
-  font-family: 'Sevillana', cursive;
-  text-align: center;
-}
 
-
-h1.work
-{
-  font-family: 'Sevillana', cursive;
-  text-align: center;
-  font-size: 48px;
-}
 a.enterwork {
   line-height: 425px;
   height: 425px;
@@ -238,9 +243,13 @@ a.enterwork {
       justify-content: space-around;
       height: 475px;
       align-items: center;
+
     }
-    h1.touch
-    {
-      font-family: 'Sevillana', cursive;
-      text-align: center;
-    }
+.row {
+  padding-bottom: 15px;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+.response {
+  justify-content: center;
+}
