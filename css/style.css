@@ -239,3 +239,8 @@ a.enterwork {
       height: 475px;
       align-items: center;
     }
+    h1.touch
+    {
+      font-family: 'Sevillana', cursive;
+      text-align: center;
+    }
