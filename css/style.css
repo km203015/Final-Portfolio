@@ -10,6 +10,10 @@
 
   /* background-color: red; /* For browsers that do not support gradients */
 }
+body {
+  background-color: #479FAA;
+
+}
 h1.about
 {
   font-family: 'Sevillana', cursive;
@@ -106,10 +110,7 @@ footer {
 
 
 }
-body {
-  background-color: white;
 
-}
 /* Style the links inside the navigation bar */
 .navbar-nav {
   font-size: 24px;
@@ -231,20 +232,8 @@ a.enterwork {
     height: 200px;
     align-items: center;
   }
-  a.form-group {
-    line-height: 425px;
-    height: 425px;
-    text-align: center;
-    }
-    .flex-container-2 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      justify-content: space-around;
-      height: 475px;
-      align-items: center;
 
-    }
+
 .row {
   padding-bottom: 15px;
   padding-top: 25px;
