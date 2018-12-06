@@ -136,19 +136,7 @@ footer {
   padding: 10px;
 }
 
-@media screen and (min-width: 800px) {
-  footer {
-    display: grid;
-    /* removed grid-column-gap it causes a horizontal scroll
-    grid-column-gap: 10px;
-    */
-    grid-template-columns: 50% 50%;
-  }
 
-  @media screen and (min-width: 1024px) {
-    header {
-      grid-template-columns: 25% 50% 0%;
-    }
 
     header .logo2 {
       grid-row-start: 1;
@@ -239,7 +227,19 @@ html, body {
     align-items: center;
   }
 
+  @media screen and (min-width: 800px) {
+    footer {
+      display: grid;
+      /* removed grid-column-gap it causes a horizontal scroll
+      grid-column-gap: 10px;
+      */
+      grid-template-columns: 50% 50%;
+    }
 
+    @media screen and (min-width: 1024px) {
+      header {
+        grid-template-columns: 25% 50% 0%;
+      }
 .row {
   padding-bottom: 15px;
   padding-top: 25px;
