@@ -1,3 +1,11 @@
+a.nav-link {
+  float: right;
+  z-index:9999;
+}
+ul.navbar-nav.ml-auto {
+height:inherit;
+z-index:9988;
+}
 #logo img, #logo2 img {
   max-width: 100%;
 }
@@ -15,10 +23,7 @@ a.enterwork {
   height: 425px !important ;
   text-align: center !important;
   }
-a.nav-link {
-  float: right;
-  z-index:9999;
-}
+
 
 body {
   background-color: white;

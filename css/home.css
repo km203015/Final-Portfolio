@@ -18,8 +18,11 @@ a.enterwork {
 a.nav-link {
   float: right;
   z-index:9999;
+  }
+ul.navbar-nav.ml-auto {
+height:inherit;
+z-index:9988;
 }
-
 body {
   background-color: white;
 
