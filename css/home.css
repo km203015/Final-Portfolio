@@ -243,6 +243,14 @@ html, body {
       header {
         grid-template-columns: 25% 50% 0%;
       }
+      @media screen and (max-width: 767px) {
+  form .col-md-6 {
+    position:inherit;
+  }
+  .container .row .col-md-4 {
+    position:inherit;
+  }
+}
 .row {
   padding-bottom: 15px;
   padding-top: 25px;

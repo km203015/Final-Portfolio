@@ -1,3 +1,11 @@
+@media screen and (max-width: 767px) {
+  form .col-md-6 {
+    position:inherit;
+  }
+  .container .row .col-md-4 {
+    position:inherit;
+  }
+}
 a.nav-link {
   float: right;
   z-index:9999;
@@ -149,6 +157,7 @@ footer {
     */
     grid-template-columns: 50% 50%;
   }
+
 
   @media screen and (min-width: 1024px) {
     header {
